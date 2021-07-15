@@ -1,5 +1,6 @@
 class Api {
 
+    // we don't currently handle auth tokens on the back end, but we should
     constructor(authToken) {
       this.authToken = authToken;
     }
@@ -8,16 +9,22 @@ class Api {
       'Accept': 'application/json',
       'Content-Type': 'application/json'
     };
-  
+    
+    // this is invalid as it stands, but we should discuss if we want to prepend 
+    // all api endpoints with api/ to keep them distinct from front end routes
     BASE_URL = '/api';
-  
+    
+    // create request headers. puts the auth token inside if it is present
     createHeaders() {
       return this.authToken ? {
         ...this.headers,
         'Authorization': 'Bearer ' + this.authToken
       } : this.headers;
     }
-  
+    
+
+    // api requests
+
     async getArtworks() {
       return await fetch(`${this.BASE_URL}/artworks`, {
         method: 'GET',
@@ -38,7 +45,8 @@ class Api {
         headers: this.createHeaders()
       });
     }
-  
+    
+    // the body may need to be adjusted here
     async addArtwork(artwork) {
       return await fetch(this.BASE_URL, {
         method: 'POST',

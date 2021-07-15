@@ -1,8 +1,11 @@
 import Api from './Api';
 
+// two Apis initialized. one with auth and one without. 
+// this will be used more later when we actually implement auth
 const apiWithAuthToken = new Api('auth token');
 const apiWithoutAuthToken = new Api();
 
+// these tests do not actually test end to end. do we want to test end to end here?
 describe('getArtworks function', () => {
     it('auth token present fetch is called', async () => {
        global.fetch = jest.fn(() => {
