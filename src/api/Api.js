@@ -23,7 +23,7 @@ class Api {
     }
     
 
-    // api requests
+    // artwork api requests
 
     async getArtworks() {
       return await fetch(`${this.BASE_URL}/artworks`, {
@@ -55,5 +55,7 @@ class Api {
       });
     }
   }
+
+  // music api requests
   
   export default Api;
