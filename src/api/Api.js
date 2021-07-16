@@ -10,9 +10,8 @@ class Api {
       'Content-Type': 'application/json'
     };
     
-    // this is invalid as it stands, but we should discuss if we want to prepend 
-    // all api endpoints with api/ to keep them distinct from front end routes
-    BASE_URL = '/api';
+    // if we ever prepend /api/ then we can add that here
+    BASE_URL = '';
     
     // create request headers. puts the auth token inside if it is present
     createHeaders() {
