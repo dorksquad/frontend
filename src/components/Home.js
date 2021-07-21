@@ -9,15 +9,15 @@ function Home() {
                         welcome to the dork squad hub
                     </h2>
                 </div>
-                <div class="text-center max-heights">
+                <div class="text-center">
                     <p>
                         we make music and art. use this hub to explore everything we've ever made.
                     </p>
-                    <div class="padding-top-1">
-                        <button>explore</button>
-                    </div>
                 </div>
-                <div class="footer text-center">
+                <div class="text-center padding-top-1">
+                    <button>explore</button>
+                </div>
+                <div class="footer text-right">
                     <p>
                         if you want to contact us <a href="/">click here</a>
                     </p>
