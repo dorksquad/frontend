@@ -24,3 +24,5 @@ VS Code with one of the popular React extensions is used by the team on this pro
 - Start the app `npm start`
 - Run tests `npm run test`
 - Run tests with coverage `npm run test -- --coverage`
+- Run all tests `npm run test --watchAll`
+- Run all tests with coverage `npm run test -- --coverage --watchAll`
