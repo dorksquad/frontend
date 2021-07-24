@@ -1,9 +1,8 @@
 @import url("https://fonts.googleapis.com/css?family=Source+Code+Pro");
 
-/* root */
 
-:root {
-  background-color: #232627;
+#parent {
+  background-color: #20242b;
 }
 
 
@@ -38,7 +37,7 @@ h3 {
 /* buttons */
 
 button {
-  background-color: #232627;
+  background-color: #20242b;
   border: 2px solid black;  
   border-color: rgb(197, 29, 57);
   padding: 30px;
