@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 
-function Home() {
+function Gallery() {
     return (
         <div >
             <div className="text-center">
@@ -10,19 +10,14 @@ function Home() {
             </div>
             <div className="text-center">
                 <p>
-                    we make music and art. use this hub to explore everything we've ever made.
+                    Check these bad boys out
                 </p>
             </div>
             <div className="text-center padding-top-1">
-                <button>explore</button>
-            </div>
-            <div className="footer text-right">
-                <p>
-                    if you want to contact us <a href="/">click here</a>
-                </p>
+                <button>tour</button>
             </div>
         </div>
     );
 }
 
-export default Home;
+export default Gallery;
