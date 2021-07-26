@@ -98,14 +98,14 @@ button:hover {
 }
 
 
-.pipeSide::after {
+.pipe-side::after {
   content: "|";
   position: absolute;
   top: 10px;
   margin-left: -2px;
 }
 
-.pipeSide::before {
+.pipe-side::before {
   content: "|";
   position: absolute;
   top: 10px;

@@ -7,7 +7,7 @@ function NavigationBar() {
     <Container className="d-flex justify-content-center">
       <Nav className="me-auto m-auto gray radial">
         <Nav.Link href="#gallery">gallery</Nav.Link>
-        <Navbar.Brand className="m-auto pipeSide" href="#home">Dork Squad</Navbar.Brand>
+        <Navbar.Brand className="m-auto pipe-side" href="#home">Dork Squad</Navbar.Brand>
         <Nav.Link href="#contact">contact</Nav.Link>
       </Nav>
     </Container>
