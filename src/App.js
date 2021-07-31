@@ -1,7 +1,7 @@
-import React, { Component } from "react";
+import React from "react";
 import Home from "./components/Home";
 import NavigationBar from "./components/NavigationBar";
-import { HashRouter , Route, Switch, Redirect } from "react-router-dom";
+import { HashRouter, Route, Switch, Redirect } from "react-router-dom";
 import Contact from "./components/Contact";
 import Gallery from "./components/Gallery";
 
@@ -10,14 +10,14 @@ function App() {
     <React.Fragment>
       <NavigationBar />
       <HashRouter>
-      <Switch>
-      <Route exact path="/home" component={Home} />
-      <Route exact path="/">
-          <Redirect to="/home" />
-        </Route>
-      <Route exact path="/contact" component={Contact} />
-      <Route exact path="/gallery" component={Gallery} />
-      </Switch>
+        <Switch>
+          <Route exact path="/home" component={Home} />
+          <Route exact path="/">
+            <Redirect to="/home" />
+          </Route>
+          <Route exact path="/contact" component={Contact} />
+          <Route exact path="/gallery" component={Gallery} />
+        </Switch>
       </HashRouter>
     </React.Fragment>
   );

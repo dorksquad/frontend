@@ -1,0 +1,23 @@
+@import url("variables.css");
+
+.pipe-side::after {
+  content: "|";
+  position: absolute;
+  top: 10px;
+  margin-left: -2px;
+}
+
+.pipe-side::before {
+  content: "|";
+  position: absolute;
+  top: 10px;
+  margin-left: -10px;
+}
+
+.primary-background {
+  background-color: var(--primary);
+}
+
+.radial {
+  border-radius: 30px;
+}

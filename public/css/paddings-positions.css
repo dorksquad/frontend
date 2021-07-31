@@ -1,0 +1,21 @@
+@import url("variables.css");
+
+.padding-1 {
+  padding: 15px;
+}
+
+.padding-top-1 {
+  padding-top: 100px;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-right {
+  text-align: right;
+}
+
+.text-left {
+  text-align: left;
+}

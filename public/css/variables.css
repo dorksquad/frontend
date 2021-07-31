@@ -1,0 +1,6 @@
+:root {
+  --primary: rgb(197, 29, 57);
+  --secondary: rgb(37, 173, 139);
+  --dark-background: #20242b;
+  --border: 2px solid black;
+}
