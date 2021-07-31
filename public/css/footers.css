@@ -1,0 +1,8 @@
+@import url("variables.css");
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 99%;
+}

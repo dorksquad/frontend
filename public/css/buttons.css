@@ -1,0 +1,17 @@
+@import url("variables.css");
+
+button {
+  background-color: #20242b;
+  border: var(--border);
+  border-color: var(--primary);
+  padding: 30px;
+  text-decoration: none;
+  color: var(--primary);
+  display: inline-block;
+  border-radius: 8px;
+}
+
+button:hover {
+  border-color: var(--secondary);
+  color: var(--secondary);
+}
